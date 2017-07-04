@@ -15,7 +15,7 @@
     </title>
 </head>
 
-<body>
+<body id="gototop">
 <!---Navigation bar Code-->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -27,7 +27,7 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
             </div>
-            <div  style="clear: both;" class="navbar-collapse in collapse navbar-ex1-collapse" id="myNavbar">
+            <div  class="navbar-collapse in collapse navbar-ex1-collapse h" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right color-correction navbar-ex1-collapse">
                     <li class="margin-left1"></li>
                     <li><a href="#">إتصل بنا</a></li>
@@ -197,11 +197,26 @@
                 </div>
             </div>
             <div class="col-md-4">
+
+<script>
+$(document).ready(function(){
+    $("#button1").click(function(){
+        $("#search").toggle(1000);
+    });
+});
+</script>
+
+
+
+
                 <!--The code for the search coloum-->
+                <div style="text-align: center;">                <button style="width: 100%" id="button1"> ابحث عن</button>
+</div>
                 <div id="search">
-                    <table border="1px">
+
+                    <table border="1px" id="myDIV">
                         <tr>
-                            <td colspan="3" style="font-size: 29px; color: #f1c40f; font-weight: bold; text-align: right; padding: 20px';">ابحث عن</td>
+                            <td colspan="3" style="font-size: 29px; color: #f1c40f; font-weight: bold; text-align: right; padding: 20px';">ابحث عن   </td>
                         </tr>
                         <tr>
                             <td colspan="2" style="text-align: right; font-size: 19px;"><a href="#">مواد غذائية  &nbsp&nbsp </a></td>
@@ -310,7 +325,16 @@
                 </div>
             </div>
             <div class="col-md-4">
+<script>
+$(document).ready(function(){
+    $("#button2").click(function(){
+        $("#areas").toggle(1000);
+    });
+});
+</script>
                 <!--The code for the Areas coloum-->
+                                <div style="text-align: center;">                <button style="width: 100%" id="button2">المناطق</button>
+</div>
                 <div id="areas">
                     <table border="1px">
                         <tr>
@@ -423,6 +447,14 @@
             </div>
             <div class="col-md-4">
                 <!--The code for the stores-->
+                <script>
+$(document).ready(function(){
+    $("#button3").click(function(){
+        $("#stores").toggle(1000);
+    });
+});
+</script>
+ <div style="text-align: center;">                <button style="width: 100%" id="button3">المتاجر</button></div>
                 <div id="stores">
                     <table border="1px">
                         <tr style="padding: 20px;">
@@ -547,11 +579,11 @@
         <div class="container">
             <div class="col-md-6">
                 <ul class="social-network social-circle">
-                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
                     <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li style="text-align: center;"><a id="gototop" class="gototop" href="#"><i style="text-align: center;" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+</a></li>
                 </ul>
             </div>
             <div class="col-md-6">

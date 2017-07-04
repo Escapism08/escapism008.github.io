@@ -59,6 +59,7 @@ body > nav {
     border-color: #f4f4f4;
     font-size: 20px;
     background-color: white;
+    display: ;
 }
 
 #areas table {
@@ -409,3 +410,8 @@ body > footer {
 }
 
 
+@media screen and (max-width: 766px) {
+    .h {
+        clear: both;
+    }
+}
