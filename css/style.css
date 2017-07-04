@@ -414,4 +414,32 @@ body > footer {
     .h {
         clear: both;
     }
+
+
+
+@media screen and (max-width: 529px) {
+    #hideit {
+        display: none;
+    }
 }
+
+
+#showbuttonifless{
+	display: none;
+}
+
+
+@media screen and (max-width: 379px) {
+    #adjusttext {
+        font-size: 16px !important;
+    }
+
+    #adjustbutton{
+    	display: none;
+    }
+
+    #showbuttonifless {
+    	display:block;
+    }
+}
+
