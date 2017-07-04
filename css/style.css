@@ -424,12 +424,26 @@ body > footer {
 }
 
 
-#showbuttonifless{
+.showbuttonifless{
 	display: none;
 }
 
+#showbuttonifless{
+	display: none;
+}
+  #adjustbutton{
+    	display: none;
+    }
 
-@media screen and (max-width: 379px) {
+
+@media screen and (min-width: 380px) {
+    #showbuttonifless {
+        display: ;
+    }
+ 
+}
+
+@media only screen and (max-width:700px) {
     #adjusttext {
         font-size: 16px !important;
     }
@@ -438,8 +452,12 @@ body > footer {
     	display: none;
     }
 
-    #showbuttonifless {
+    .showbuttonifless {
     	display:block;
     }
+    #showbuttonifless{
+	display:block;
 }
+}
+
 

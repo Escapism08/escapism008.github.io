@@ -6706,6 +6706,9 @@ button.close {
   .hidden-lg {
     display: none !important;
   }
+  .hidebuttonwhenless{
+    visibility: hidden;
+  }
 }
 .visible-print {
   display: none !important;
