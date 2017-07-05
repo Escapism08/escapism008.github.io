@@ -1,4 +1,4 @@
-    .first-header-container {
+.first-header-container {
     padding: 2em;
 }
 
@@ -404,90 +404,60 @@ body > footer {
     text-align: right;
 }
 
-.btn-success {
-    border: none;
+
+.btn-success{
+	border:none;
 }
+
 
 @media screen and (max-width: 766px) {
     .h {
         clear: both;
     }
-    @media screen and (max-width: 529px) {
-        #hideit {
-            display: none;
-        }
-    }
-    .showbuttonifless {
+
+
+
+@media screen and (max-width: 529px) {
+    #hideit {
         display: none;
     }
+}
+
+
+.showbuttonifless{
+	display: none;
+}
+
+#showbuttonifless{
+	display: none;
+}
+  #adjustbutton{
+    	display: none;
+    }
+
+
+@media screen and (min-width: 380px) {
     #showbuttonifless {
-        display: none;
+        display: ;
     }
-    #adjustbutton {
-        display: none;
-    }
-    @media screen and (min-width: 380px) {
-        #showbuttonifless {
-            display: ;
-        }
-    }
-    @media only screen and (max-width:700px) {
-        #adjusttext {
-            font-size: 16px !important;
-        }
-        #adjustbutton {
-            display: none;
-        }
-        .showbuttonifless {
-            display: block;
-        }
-        #showbuttonifless {
-            display: block;
-        }
+ 
+}
+
+@media only screen and (max-width:700px) {
+    #adjusttext {
+        font-size: 16px !important;
     }
 
+    #adjustbutton{
+    	display: none;
+    }
 
-.copyrightp{
-    text-align: right; font-size: 10px;
+    .showbuttonifless {
+    	display:block;
+    }
+    #showbuttonifless{
+	display:block;
 }
-
-.align-centerr{
-    text-align: center;
-}
-
-.padding8px{
-    padding: 8px;
-}
-
-.areatext{
-    padding: 24px 2px !important; color: #727272; font-size: 10px ;
 }
 
 
-.areasinfooter{
-    display: inline-block; padding-right: 20px;  font-size: 17px;
-}
-
-.themoreinfooter{
-    display: inline-block; padding-right: 20px; font-size: 17px; color: #d8b013; text-decoration: underline;
-}
-
-.areasinfooterspecial{
-    display: inline-block; padding-left: 20px;  font-size: 17px; color: #d8b013;
-}
-
-.untitledlist{
-    list-style: none; color: #fefefe;
-}
-
-.DivInsideFooterContainingAreas{
-    display: block; text-align: center; padding: 20px;
-}
-
-.upperfooter{
-    display: inline-block; padding-left: 20px; font-size: 20px;
-}
-
-.UntitledListForUpperFooter{
-    list-style: none; color: #e3e3e4;
-}
