@@ -474,7 +474,9 @@ body > footer {
     padding: 0px;
     margin: 0px;
 }
-
+#gototop{
+    display: block;
+}
 .untitledlistinfooter{
     padding: 0px;
 }
