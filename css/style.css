@@ -411,6 +411,9 @@ body > footer {
 	border:none;
 }
 
+#footer1{
+    display: block; text-align: center; padding: 20px;
+}
 
 @media screen and (max-width: 766px) {
     .h {
@@ -463,6 +466,17 @@ body > footer {
         .adjustit{
     font-size: 12px !important;
     display: block !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer1{
+    padding: 0px;
+    margin: 0px;
+}
+
+.untitledlistinfooter{
+    padding: 0px;
 }
     #showbuttonifless{
 	display:block;
