@@ -564,7 +564,19 @@ $(document).ready(function(){
                     <li style="display: inline-block; padding-left: 20px; font-size: 20px;">العروض</li>
                 </ul>
             </div>
-            <div style="display: block; text-align: center; padding: 20px">
+            <script>
+$(document).ready(function(){
+    $("#button9").click(function(){
+        $("#footer1").toggle(1000);
+    });
+});
+</script>
+<div style="text-align: center;">
+                  <a style="color: #d8b013; text-align: center;" id="button9" href="#footer1"> المناطق </a>
+
+</div>
+
+            <div id="footer1" style="display: block; text-align: center; padding: 20px">
                 <ul style="list-style: none; color: #fefefe;">
                     <li class="adjustit" style="color: #d8b013; text-decoration: underline;">المزيد </li>
                     <li class="adjustit" >6 أكتوبر </li>
@@ -574,7 +586,6 @@ $(document).ready(function(){
                     <li class="adjustit"> مدينة نصر</li>
                     <li class="adjustit" > المعادي </li>
                     <li class="adjustit" > الهرم </li>
-                    <li class="adjustit" style=";color: #d8b013;">المناطق </li>
                 </ul>
             </div>
     </footer>
