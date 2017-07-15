@@ -403,7 +403,9 @@ body > footer {
     color: white;
     text-align: right;
 }
-
+.adjustit{
+        display: inline-block; padding-right: 20px;  font-size: 12px;
+}
 
 .btn-success{
 	border:none;
@@ -440,6 +442,8 @@ body > footer {
     #showbuttonifless {
         display: ;
     }
+
+
  
 }
 
@@ -447,7 +451,7 @@ body > footer {
     #adjusttext {
         font-size: 13px !important;
     }
-
+    
     #adjustbutton{
     	display: none;
     }
@@ -455,8 +459,16 @@ body > footer {
     .showbuttonifless {
     	display:block;
     }
+
+        .adjustit{
+    font-size: 12px !important;
+    display: block !important;
+}
     #showbuttonifless{
 	display:block;
+}
+body{
+    background-color: black;
 }
 }
 
