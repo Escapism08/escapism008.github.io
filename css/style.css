@@ -40,7 +40,9 @@ body > nav {
 #search {
     background-color: white;
 }
-
+.query{
+    font-size: 20px;
+}
 #search table {
     line-height: 40px;
     border-collapse: collapse;
@@ -498,6 +500,7 @@ body > footer:nth-child(7) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(
 .h1{
     font-size: 26px !important;
 }
+
 
 
 
