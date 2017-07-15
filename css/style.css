@@ -411,6 +411,12 @@ body > footer {
 	border:none;
 }
 
+.footer2{
+    display: inline-block; padding-right: 10px; font-size: 11px;
+}
+.footer2Offers{
+    display: inline-block; padding-left: 10px; font-size: 11px;
+}
 #footer1{
     display: block; text-align: center; padding: 20px;
 }
