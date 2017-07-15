@@ -475,7 +475,9 @@ body > footer {
     padding: 0px;
     margin: 0px;
 }
-
+body > footer:nth-child(7) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(1){
+    padding:0px;
+}
 #footer1{
     padding: 0px;
     margin: 0px;
