@@ -512,7 +512,7 @@ body > footer:nth-child(7) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(
 
 .clickable .glyphicon
 {
-    background: rgba(245, 212, 81, 1);
+    
     display: inline-block;
     padding: 6px 12px;
     border-radius: 4px
@@ -529,4 +529,12 @@ a.clickable:hover { text-decoration:none; }
 
 .panel-heading{
     background-color: rgba(245, 212, 81, 1);
+}
+
+.panel-primary > .panel-heading{
+    border-color: rgba(245, 212, 81, 1);
+}
+
+.panel-heading{
+    border-color: rgba(245, 212, 81, 1) !important;
 }
