@@ -542,3 +542,11 @@ a.clickable:hover { text-decoration:none; }
 .social-network{
     padding: 0px;
 }
+
+.btn-group open{
+    padding-left: 40px;
+}
+
+.open{
+     margin-left: 63px;
+}
