@@ -39,6 +39,7 @@ body > nav {
 
 #search {
     background-color: white;
+    margin-bottom: 0px !important;
 }
 .query{
     font-size: 20px;
@@ -60,6 +61,7 @@ body > nav {
     border-collapse: collapse;
     border-color: #f4f4f4;
     font-size: 20px;
+    margin-bottom: 0px !important;
     background-color: white;
     display: ;
 }
@@ -395,6 +397,7 @@ body > footer {
 
 .green-color {
     background-color: #2fad64;
+    color: white;
 }
 
 .paddingtop50px {
@@ -501,7 +504,9 @@ body > footer:nth-child(7) > div:nth-child(1) > div:nth-child(2) > ul:nth-child(
     font-size: 26px !important;
 }
 
-
+.green-color:hover{
+    background-color: #2fad64;
+}
 
 
 
@@ -550,3 +555,37 @@ a.clickable:hover { text-decoration:none; }
 .open{
      margin-left: 63px;
 }
+
+
+.modal-dialog {
+margin: 0px auto;
+}
+
+.modal-backdrop.fade {
+opacity: 0.1;
+filter: alpha(opacity=0.1);
+}
+
+.modal-content {
+position: relative;
+background-color: #FFF;
+border: 1px solid #CECECE;
+border-radius: 0px;
+-webkit-box-shadow:none; 
+ box-shadow: none;
+background-clip: padding-box;
+outline: 0;
+}
+
+
+.modal-header {
+    padding: 11px 15px;
+    background-color: #F8F8F8;
+background: -webkit-linear-gradient(top, #F8F8F8, #F2F2F2);
+background: -moz-linear-gradient(top, #f8f8f8, #f2f2f2);
+background: -ms-linear-gradient(top, #f8f8f8, #f2f2f2);
+background: -o-linear-gradient(top, #f8f8f8, #f2f2f2);
+background: linear-gradient(top, #f8f8f8, #f2f2f2);
+}
+
+

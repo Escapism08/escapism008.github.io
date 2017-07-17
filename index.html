@@ -56,13 +56,13 @@
 
                     <li>
                         <a href="#">
-                            <button type="button" class="btn btn-success green-color">دخول &nbsp<i class="fa fa-user" aria-hidden="true"></i>
+                            <button type="button" class="btn btn-success green-color" data-toggle="modal" data-target="#myModal">دخول &nbsp<i class="fa fa-user" aria-hidden="true"></i>
                             </button>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <button type="button" class="btn btn-warning bright-yellow">عضو جديد؟ &nbsp<i class="fa fa-user-plus" aria-hidden="true"></i>
+                            <button type="button" class="btn btn-warning bright-yellow" data-toggle="modal" data-target="#myModal2">عضو جديد؟ &nbsp<i class="fa fa-user-plus" aria-hidden="true"></i>
                             </button>
                         </a>
                     </li>
@@ -234,7 +234,61 @@ $(document).ready(function () {
 
 </script>
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h1 style="color: #777;" class="text-center"><img src="images/Logo.png"></h1>
+        </div>
+         <div class="modal-body">
+             <div class="form-group">
+                 <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم"/>
+             </div>
 
+             <div class="form-group">
+                 <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر"/>
+             </div>
+
+             <div class="form-group">
+                 <input style="" type="submit" class="btn btn-block btn-lg  green-color" value="الدخول"/>
+                 <span class="pull-right"><a style="color: #777;" href="#"></a></span><span><a style="color: #777;" href="#">نسيت كلمة المرور؟</a></span>
+             </div>
+         </div>
+    </div>
+ </div>
+ </div>
+
+
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h1 style="color: #777;" class="text-center"><img src="images/Logo.png"></h1>
+        </div>
+         <div class="modal-body">
+             <div class="form-group">
+                 <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم"/>
+             </div>
+                          <div class="form-group">
+                 <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="البريد الالكتروني"/>
+             </div>
+
+             <div class="form-group">
+                 <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر"/>
+             </div>
+                          <div class="form-group">
+                 <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="تأكيد كلمة السر"/>
+             </div>
+
+             <div class="form-group">
+                 <input style="color: white;" type="submit" class="btn btn-block btn-lg  bright-yellow" value="الدخول"/>
+
+             </div>
+         </div>
+    </div>
+ </div>
+ </div>
 
 
                 <!--The code for the search coloum-->
@@ -650,8 +704,13 @@ $(document).ready(function(){
             </div>
         </div>
         <div style="text-align: center;" class="social-network social-circle container">
-                    <a id="gototop" class="gototop" href="#"><i style="text-align: center;" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+        <div class="row">
+                <div class="col-md-12">
+                     <a style="font-size: 10px;" id="gototop" class="gototop" href="#"><i style="text-align: center;" class="fa fa-chevron-circle-up" aria-hidden="true"></i>
 </a>
+                </div>
+        </div>
+                   
 
             </div>
     </div>
