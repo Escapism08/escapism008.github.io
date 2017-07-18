@@ -9,15 +9,15 @@
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8"> 
- <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
         Offers Website Remake
     </title>
 </head>
 
 <body id="gototop ">
-<!---Navigation bar Code-->
+    <!---Navigation bar Code-->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -28,13 +28,13 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
             </div>
-            <div  class="navbar-collapse collapse navbar-ex1-collapse h" id="myNavbar">
+            <div class="navbar-collapse collapse navbar-ex1-collapse h" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right color-correction navbar-ex1-collapse">
                     <li class="margin-left1"></li>
                     <li class="active"><a href="contact-us.html">إتصل بنا</a></li>
                     <li><a href="#">!ما هو الجديد</a></li>
                     <li><a href="#">المتاجر</a></li>
-                    <li ><a href="index.html">العروض</a></li>
+                    <li><a href="index.html">العروض</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-left ">
                     <li style="padding-right: 0px;" class="dropdown dropdown-header padding-top13px">
@@ -52,8 +52,7 @@
                             </ul>
                         </div>
                     </li>
-                                        <li style="padding: 24px 2px; color: #727272; font-size: 10px;">المنطقة</li>
-
+                    <li style="padding: 24px 2px; color: #727272; font-size: 10px;">المنطقة</li>
                     <li>
                         <a href="#">
                             <button type="button" class="btn btn-success green-color" data-toggle="modal" data-target="#myModal">دخول &nbsp<i class="fa fa-user" aria-hidden="true"></i>
@@ -70,150 +69,160 @@
             </div>
         </div>
     </nav>
-
     <div class="bright-yellow paddingtop50px">
         <div class="container container2">
             <h1 style="font-size: 26px; text-align: right;" class="header-text">تواصل معنا</h1>
         </div>
     </div>
-   
-                <script>
-                $(document).on('click', '.panel-heading span.clickable', function(e) {
-                    var $this = $(this);
-                    if (!$this.hasClass('panel-collapsed')) {
-                        $this.parents('.panel').find('.panel-body').slideUp();
-                        $this.addClass('panel-collapsed');
-                        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-                    } else {
-                        $this.parents('.panel').find('.panel-body').slideDown();
-                        $this.removeClass('panel-collapsed');
-                        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-                    }
-                });
-                $(document).on('click', '.panel div.clickable', function(e) {
-                    var $this = $(this);
-                    if (!$this.hasClass('panel-collapsed')) {
-                        $this.parents('.panel').find('.panel-body').slideUp();
-                        $this.addClass('panel-collapsed');
-                        $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
-                    } else {
-                        $this.parents('.panel').find('.panel-body').slideDown();
-                        $this.removeClass('panel-collapsed');
-                        $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
-                    }
-                });
-                $(document).ready(function() {
-                    $('.panel-heading span.clickable').click();
-                    $('.panel div.clickable').click();
-                });
-                $('#contact-form').bootstrapValidator({
-
-                </script>
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 style="color: #777;" class="text-center"><img src="images/logo.png"></h1>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="" type="submit" class="btn btn-block btn-lg  green-color" value="الدخول" />
-                                    <span class="pull-right"><a style="color: #777;" href="#"></a></span><span><a style="color: #777;" href="#">نسيت كلمة المرور؟</a></span>
-                                </div>
-                            </div>
-                        </div>
+    <script>
+    $(document).on('click', '.panel-heading span.clickable', function(e) {
+        var $this = $(this);
+        if (!$this.hasClass('panel-collapsed')) {
+            $this.parents('.panel').find('.panel-body').slideUp();
+            $this.addClass('panel-collapsed');
+            $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+        } else {
+            $this.parents('.panel').find('.panel-body').slideDown();
+            $this.removeClass('panel-collapsed');
+            $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+        }
+    });
+    $(document).on('click', '.panel div.clickable', function(e) {
+        var $this = $(this);
+        if (!$this.hasClass('panel-collapsed')) {
+            $this.parents('.panel').find('.panel-body').slideUp();
+            $this.addClass('panel-collapsed');
+            $this.find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+        } else {
+            $this.parents('.panel').find('.panel-body').slideDown();
+            $this.removeClass('panel-collapsed');
+            $this.find('i').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+        }
+    });
+    $(document).ready(function() {
+        $('.panel-heading span.clickable').click();
+        $('.panel div.clickable').click();
+    });
+    </script>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 style="color: #777;" class="text-center"><img src="images/logo.png"></h1>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم" />
+                    </div>
+                    <div class="form-group">
+                        <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر" />
+                    </div>
+                    <div class="form-group">
+                        <input style="" type="submit" class="btn btn-block btn-lg  green-color" value="الدخول" />
+                        <span class="pull-right"><a style="color: #777;" href="#"></a></span><span><a style="color: #777;" href="#">نسيت كلمة المرور؟</a></span>
                     </div>
                 </div>
-                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 style="color: #777;" class="text-center"><img src="images/logo.png"></h1>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="البريد الالكتروني" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="تأكيد كلمة السر" />
-                                </div>
-                                <div class="form-group">
-                                    <input style="color: white;" type="submit" class="btn btn-block btn-lg  bright-yellow" value="الدخول" />
-                                </div>
-                            </div>
-                        </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 style="color: #777;" class="text-center"><img src="images/logo.png"></h1>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="إسم المستخدم" />
+                    </div>
+                    <div class="form-group">
+                        <input style="text-align: right;" type="text" class="form-control input-lg" placeholder="البريد الالكتروني" />
+                    </div>
+                    <div class="form-group">
+                        <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="كلمة السر" />
+                    </div>
+                    <div class="form-group">
+                        <input style="text-align: right;" type="password" class="form-control input-lg" placeholder="تأكيد كلمة السر" />
+                    </div>
+                    <div class="form-group">
+                        <input style="color: white;" type="submit" class="btn btn-block btn-lg  bright-yellow" value="الدخول" />
                     </div>
                 </div>
-
-
-
-
-
- 
-
-           
-
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
-<div style="padding-bottom: 40px;" class="container">
-    <div style="padding: 50px;" class="row">
-        <form role="form" id="contact-form" class="contact-form">
-                    <div class="row">
-                        <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js"></script>
+    <div style="padding-bottom: 40px;" class="container">
+        <div style="padding: 50px;" class="row">
+            <form role="form" id="contact-form" class="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
                         <div class="form-group">
                             <input style="text-align: right;" type="text" class="form-control" name="Name" autocomplete="off" id="Name" placeholder="الإسم">
                         </div>
                     </div>
-                        <div class="col-md-6">
+                    <div class="col-md-6">
                         <div class="form-group">
                             <input style="text-align: right;" type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="الايميل">
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
                         <div class="form-group">
                             <textarea style="text-align: right;" class="form-control textarea" rows="3" name="Message" id="Message" placeholder="الرسالة "></textarea>
                         </div>
                     </div>
-                    </div>
-                    <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-md-12">
-                  <button type="submit" class="btn main-btn pull-right">ارسل</button>
-                  </div>
-                  </div>
-                </form>
+                        <button type="submit" class="btn main-btn pull-right">ارسل</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+    <style type="text/css">
+    .contact-form {
+        margin-top: 15px;
+    }
 
+    .contact-form .textarea {
+        min-height: 220px;
+        resize: none;
+    }
 
+    .form-control {
+        box-shadow: none;
+        border-color: #eee;
+        height: 49px;
+    }
 
-<style type="text/css">
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #00b09c;
+    }
 
-.contact-form{ margin-top:15px;}
-.contact-form .textarea{ min-height:220px; resize:none;}
-.form-control{ box-shadow:none; border-color:#eee; height:49px;}
-.form-control:focus{ box-shadow:none; border-color:#00b09c;}
-.form-control-feedback{ line-height:50px;}
-.main-btn{ background:#449d44; border-color:#00b09c; color:#fff;}
-.main-btn:hover{ border-color: #255625;color:#fff;}
-.form-control-feedback {
-line-height: 50px;
-top: 0px;
-}
+    .form-control-feedback {
+        line-height: 50px;
+    }
 
-</style>
+    .main-btn {
+        background: #449d44;
+        border-color: #00b09c;
+        color: #fff;
+    }
+
+    .main-btn:hover {
+        border-color: #255625;
+        color: #fff;
+    }
+
+    .form-control-feedback {
+        line-height: 50px;
+        top: 0px;
+    }
+    </style>
     <!--footer start from here-->
     <footer>
         <div class="container">
@@ -274,6 +283,6 @@ top: 0px;
             </div>
         </div>
     </div>
-    </body>
+</body>
 
 </html>
