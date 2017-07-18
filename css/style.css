@@ -358,7 +358,7 @@ a.socialIcon:hover,
     transition: all 0.8s;
 }
 
-//Social Links movinf
+//Social Links moving
 footer {
     background-color: #27282c !important;
     min-height: 350px;
@@ -587,5 +587,3 @@ background: -ms-linear-gradient(top, #f8f8f8, #f2f2f2);
 background: -o-linear-gradient(top, #f8f8f8, #f2f2f2);
 background: linear-gradient(top, #f8f8f8, #f2f2f2);
 }
-
-
